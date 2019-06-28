@@ -1,6 +1,6 @@
 *{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 html{
      font-size: 10px;
@@ -12,61 +12,61 @@ font-family: 'Roboto', sans-serif;
 
 
 .main{
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: column;
-	background-image: url(../img/bg-imgg.jpg);
-	background-size: cover;
-	z-index: 0;	
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/bg-imgg.jpg);
+  background-size: cover;
+  z-index: 0; 
 }
 
 
 .header{
-	
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	background-color: #333;
-	height: 15vh;
+  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #333;
+  height: 15vh;
 
 }
 
 .menu, ul{
-	
-	display: flex;
-	justify-content: space-around;
-	list-style-type: none;
-	display: flex;
-	align-items: center;
+  
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
 
-	width: 100%;
-	font-size:2.3rem;
-	
+  width: 100%;
+  font-size:2.3rem;
+  
     
 }
 .menu.fixed{
-	    position: fixed;
-	    top: 0;
-	    width: 100%;
-	    background-color:#808080	;
-	    z-index: 2;
-	  
-	}
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color:#808080  ;
+      z-index: 2;
+    
+  }
 
 .menu{
-	position: relative;
+  position: relative;
 }
 .menu-header{
-	text-decoration: none;
-	color:#fff;
-	transition:0.2s;
+  text-decoration: none;
+  color:#fff;
+  transition:0.2s;
 }
 
 a:hover{
-	color:#E8E8E8;
+  color:#E8E8E8;
 }
 
 
@@ -136,37 +136,38 @@ a:hover{
  
 
 .about-me{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: column;
-	width: 100%;
-	height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 .header-about{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100px;
-	font-size: 4.5rem;
-	color:#fff;
-	text-transform: uppercase;
-	  text-shadow: 1px 1px 0.3px #fff;
-	  background-color: #A9A9A9;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  font-size: 4.5rem;
+  color:#fff;
+  text-transform: uppercase;
+    text-shadow: 1px 1px 0.3px #fff;
+    background-color: #A9A9A9;
 
 }
 .header h2{
-	text-align: center;
+  text-align: center;
 
 }
 .text-about{
-	width: 100%;
+  width: 100%;
    
-	text-align: center;
+  text-align: center;
      padding: 0px;
      height: 527px;
-     background-color: #333	;
+     background-color: #333 ;
      background-size: cover;
      color:#fff;
      font-weight: 500;
@@ -179,18 +180,18 @@ a:hover{
   height: 200px;
   text-align: center;
   margin-top: 130px;
-	
+  
 }
 .text-about h2{
-	font-size: 3.5rem;
-	margin-bottom: 10px;
-	width: 100%;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .text-about p{
-	font-size: 2.5rem;
-	font-weight: 500;
-	margin:10px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin:10px;
 }
 
 
@@ -235,6 +236,106 @@ a:hover{
 
 
 #kadiev{
-	font-weight: 700;
-	
+  font-weight: 700;
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.photo {
+  float: left;
+    width: 33.333333%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #eee;
+    box-sizing: border-box;
+}
+.photo a:hover {
+    opacity: 0.5;
+}
+.photo a {
+    display: block;
+    position: relative;
+}
+.photo a:after {
+    content: '';
+    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+    width: 52px;
+    height: 35px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+}
+.photo:hover> a:after {
+    visibility: visible;
+}
+.photo figcaption {
+    color: #999999;
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #cccccc;
+    text-align: center;
+    margin-top: 100px;
+  
+  }
+
+#gallery {
+    margin-bottom: 60px;
+}
+#gallery:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.no{
+  color:#fff;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto;}
