@@ -7,19 +7,19 @@
 
 
 	.menu-header{
-		font-size: 0.7rem;
+		font-size: 1.1rem;
 	}
 	.fun-hover{
-		font-size: 0.7rem;
+		font-size: 1.2rem;
 	}
 	.fun-hover:hover{
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}
 	.header-about h2{
 		font-size: 2rem;
 	}
 	.photo{
-		width: 70%;
+		width: 50%;
 	}
 
 	.contacts p{
