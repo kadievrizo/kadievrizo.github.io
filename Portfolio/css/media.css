@@ -5,15 +5,17 @@
 @media screen and (max-width: 480px) {
 
 
-
+.animation-span{
+	font-size: 3rem;
+}
 	.menu-header{
-		font-size: 1.1rem;
+		font-size: 1.5rem;
 	}
 	.fun-hover{
-		font-size: 1.2rem;
+		font-size: 1.25rem;
 	}
 	.fun-hover:hover{
-		font-size: 1rem;
+		font-size: 1.1rem;
 	}
 	.header-about h2{
 		font-size: 2rem;
