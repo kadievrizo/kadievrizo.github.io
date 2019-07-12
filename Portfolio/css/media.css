@@ -2,12 +2,12 @@
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
 
 
 html { overflow-x: hidden; }
 	.menu-header{
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 	}
 	.fun-hover{
 		font-size: 1.65rem;

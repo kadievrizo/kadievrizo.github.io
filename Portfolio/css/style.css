@@ -5,12 +5,24 @@
   margin: 0;
   padding: 0;
 }
+
+
 html{
-     font-size: 10px;
+
+   font-size: 10px;
+   width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 
 }
+
+ 
 body{
 font-family: 'Roboto', sans-serif;
+width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+
 
 }
 
