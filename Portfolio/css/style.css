@@ -23,7 +23,12 @@ font-family: 'Roboto', sans-serif;
   align-items: center;
   flex-direction: column;
   background-image: url(../img/bg-imgg.jpg);
-  background-size: cover;
+ -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+ background-attachment: fixed;
+ background-size: cover;
   z-index: 0; 
 }
 
@@ -460,10 +465,6 @@ color: #d34836;
 #instagram-a:hover{
      color:#cd486b; 
 }
-
-
-
-
 
 
 

@@ -1,0 +1,169 @@
+
+@media screen and (max-width: 925px) {
+
+
+
+	.menu-header{
+		font-size: 2rem;
+	}
+	.fun-hover{
+		font-size: 3.4rem;
+	}
+	.fun-hover:hover{
+		font-size: 3.2rem;
+	}
+	
+}
+
+
+
+
+
+@media screen and (max-width: 845px) {
+
+
+
+	.menu-header{
+		font-size: 1.85rem;
+	}
+	.fun-hover{
+		font-size: 3.2rem;
+	}
+	.fun-hover:hover{
+		font-size: 3rem;
+	}
+	
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+
+	.menu-header{
+		font-size: 1.5rem;
+	}
+	.fun-hover{
+		font-size: 1.95rem;
+	}
+	.fun-hover:hover{
+		font-size: 1.8rem;
+	}
+	.header-about h2{
+		font-size: 3rem;
+	}
+	.photo{
+		width: 50%;
+	}
+
+	.contacts p{
+    font-size: 1.6rem;
+}
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+
+	.menu-header{
+		font-size: 1.4rem;
+	}
+	.fun-hover{
+		font-size: 1.75rem;
+	}
+	.fun-hover:hover{
+		font-size: 1.6rem;
+	}
+	.header-about h2{
+		font-size: 2.7rem;
+	}
+	.photo{
+		width: 50%;
+	}
+
+	.contacts p{
+    font-size: 1.4rem;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 445px) {
+
+
+
+
+	.fun-hover{
+		font-size: 1.55rem;
+	}
+	.fun-hover:hover{
+		font-size: 1.4rem;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 395px) {
+
+
+
+
+	.fun-hover{
+		font-size: 1.45rem;
+	}
+	.fun-hover:hover{
+		font-size: 1.3rem;
+}
+
+.menu-header{
+		font-size: 1.2rem;
+	}
+
+
+}
+
+
+
+@media screen and (max-width: 373px) {
+
+
+
+
+	.fun-hover{
+		font-size: 1.25rem;
+	}
+	.fun-hover:hover{
+		font-size: 1.1rem;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 353px) {
+
+
+
+
+	.fun-hover{
+		font-size: 1.05rem;
+	}
+	.fun-hover:hover{
+		font-size: 0.9rem;
+}
+
+
+}
+
