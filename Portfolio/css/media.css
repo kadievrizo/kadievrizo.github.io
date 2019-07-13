@@ -30,16 +30,3 @@
 
 
 }
-
-@media screen and (max-width: 333px) {
-
-	.contacts p{
-		font-size: 0.9rem;
-	}
-	.contacts h2{
-		font-size: 2rem;
-	}
-	.menu-header{
-		font-size: 1.2rem;
-	}
-}
