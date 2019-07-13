@@ -22,7 +22,7 @@ font-family: 'Roboto', sans-serif;
 width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-
+ background-color: #999;
 
 }
 
@@ -294,7 +294,7 @@ width: 100%;
 
 .container {
   width: 100%;
-
+   background: #666;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -308,7 +308,7 @@ width: 100%;
     display: block;
     max-width: 100%;
     height: auto;
-    border: 10px solid #eee;
+    border: 10px solid #444;
     box-sizing: border-box;
 }
 .photo a:hover {
@@ -335,7 +335,7 @@ width: 100%;
     visibility: visible;
 }
 .photo figcaption {
-    color: #999999;
+    color: #fff;
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
@@ -345,9 +345,10 @@ width: 100%;
 
     font-size: 32px;
     text-transform: uppercase;
-    color:#696969;
+    color:#fff;
     text-align: center;
     margin-top: 80px;
+    text-shadow: 1px 1px 2px #fff;
 
 
   
@@ -363,7 +364,7 @@ width: 100%;
    clear: both;
 }
 .no{
-  color:#fff;
+  color:#666;
   font-size: 15px;
   text-align: center;
   margin: 0 auto;}
