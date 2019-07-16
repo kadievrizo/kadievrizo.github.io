@@ -22,6 +22,65 @@
 </head>
 <body>
 
+
+
+
+<?php
+
+if(isset($_POST['message'])){
+
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$message = $_POST['message'];
+    
+	
+	$to      = 'rizkadiev@gmail.com';
+	$subject = 'Site Contact Form';
+
+	$headers = 'From: '. $email . "\r\n" .
+    'Reply-To: '. $email . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+	$status = mail($to, $subject, $message, $headers);
+
+	if($status == TRUE){	
+		$res['sendstatus'] = 'done';
+	
+		//Edit your message here
+		$res['message'] = 'Form Submission Successful';
+    }
+	else{
+		$res['message'] = 'Failed to send mail. Please mail me to rizkadiev@gmail.com';
+	}
+	
+	
+	echo json_encode($res);
+}
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
 	<!-- Preloader -->
 
 	<div id="preloader">
@@ -411,9 +470,13 @@
 								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="Ваш E-mail">
 							</div>
 
+						
+
 							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
 								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Сообщение"></textarea>
 							</div>
+
+						
 
 							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Отправить</button>
 						</div>
@@ -480,6 +543,7 @@
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.cbpQTRotator.js"></script>
 	<script src="assets/js/custom.js"></script>
+
 
 </body>
 </html>
